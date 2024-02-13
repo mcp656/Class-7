@@ -2,6 +2,7 @@
 
 Hi there!
 
+
 On this page, you can access my presentation slides and solutions to problem sets for the "Introduction to Programming and Numerical Analysis" course.
 
 Additionally, I will be posting problem sets and the mandatory assignments here.
