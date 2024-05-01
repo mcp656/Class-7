@@ -16,7 +16,7 @@ def x_squared(x):
     # Return x squared
     return x**2
 
-def simple_fig(x,y,color='blue',label='y'):
+def simple_fig(x, y, color='blue', label='y'):
     """
     Create a line plot for the given x and y data arrays with customizable color and label.
 
