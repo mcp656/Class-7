@@ -16,7 +16,7 @@ def x_squared(x):
     # Return x squared
     return x**2
 
-def simple_fig(x, y, color='blue', label='y'):
+def simple_fig(x, y, color='blue', label='y', legend_pos='best'):
     """
     Create a line plot for the given x and y data arrays with customizable color and label.
 
@@ -25,6 +25,8 @@ def simple_fig(x, y, color='blue', label='y'):
     y (array-like): An array of y-values that correspond to x-values.
     color (str, optional): The color of the line in the plot. Default is 'blue'.
     label (str, optional): The label for the plot data, used in the legend. Default is 'y'.
+    legend_pos (str, optional): The legend position. Default is 'best'. 
+
 
     Returns:
     matplotlib.figure.Figure: The figure object containing the plot.
@@ -39,7 +41,7 @@ def simple_fig(x, y, color='blue', label='y'):
     ax.plot(x, y, '--', color=color, label=label)
 
     # Display legend
-    ax.legend()
+    ax.legend(loc=legend_pos)
 
     # Show plot
     plt.show();
